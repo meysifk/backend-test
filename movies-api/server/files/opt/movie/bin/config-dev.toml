@@ -1,0 +1,12 @@
+[server]
+port = 8081
+http_timeout = 20000
+movie_server_addr = "localhost:8081"
+
+[DB]
+dsn = "username:password@tcp(127.0.0.1:3306)/stockbit"
+is_mock = true
+
+[omdb]
+host = "http://www.omdbapi.com"
+api_key = "faf7e5bb&s"

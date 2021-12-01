@@ -1,0 +1,9 @@
+[server]
+port = 8081
+http_timeout = 20000
+movie_server_addr = "localhost:8081"
+
+[DB]
+dsn = "postgres://root:@localhost:5432/stockbit?sslmode=disable"
+max_conn = 10
+max_idle_conn = 5
